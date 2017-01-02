@@ -6,8 +6,8 @@
 </head>
 <body>
    <?php
-<<<<<<< HEAD
-    require_once("Modelo/Marca_Modelo.php");
+
+    require_once("Marca_Modelo.php");
     //require_once("ficheros.php");
    echo "kk Alta modelo encima de formulario";
    $kks=new Marca_Modelo();
@@ -31,12 +31,11 @@
    }
    $array_d=  array_values($cadena_vector);
    print_r($array_d);
-=======
-   require_once ("Modelo/Marca_Combo.php");
+
+   //require_once ("Marca_Combo.php");
    echo "kk Alta modelo encima de formulario";
+  
    
-   
->>>>>>> e30d17ab42d914943d41bab27bd0b97fe54aff07
    ?>
 
 <h1>Datos del Modelo</h1>
@@ -49,7 +48,6 @@
 <tr><td>Id:</td><td><input type="text" name="id"></td></tr>
 <tr><td>Modelo:</td><td><input type="text" name="modelo"></td></tr>
 <tr><td>Motor:</td><td><input type="text" name="motor"></td></tr>
-<<<<<<< HEAD
 <tr><td>Marca:</td><td>
     <?php
        
@@ -77,8 +75,8 @@
   
     ?>   
         </td></tr>
-=======
-<tr><td>Marca:</td><td><select name="marca" id="marca">
+
+<!--<tr><td>Marca:</td><td><select name="marca" id="marca">-->
             
             <?php
            // $marca_coche=new Marca_Modelo();
@@ -102,7 +100,7 @@
             
             
         </select></td></tr>
->>>>>>> e30d17ab42d914943d41bab27bd0b97fe54aff07
+
 
 
 <tr><td><input type="submit" name="enviar" value="Enviar"></td>
@@ -112,7 +110,7 @@
 
 //error_reporting(0);
 
-include_once ('/Modelo/ModeloV_Modelo.php');
+include_once ('ModeloV_Modelo.php');
 if (($_REQUEST['id']!="" && $_REQUEST['modelo']!="" && $_REQUEST['motor']=!"")) {
     
         $tmp_id = (isset($_REQUEST['id'])) ? strip_tags(trim(htmlspecialchars($_REQUEST['id'], ENT_QUOTES, "ISO-8859-1"))) : "";
@@ -149,7 +147,7 @@ $modelo->setModelo_marca($marcas_form);
 
 //FUNCIÓN PARA EL COMBOBOX Y EXTRACCIÓN DATOS DEL ARRAY
 
-function lista_marcas($nombre,$marcas) {
+/*function lista_marcas($nombre,$marcas) {
     
     $vector_marcas=$marcas;
     $longitud_vector=count($vector_marcas);
@@ -161,7 +159,7 @@ function lista_marcas($nombre,$marcas) {
     }
     $txt.='</select>';
     return $txt;
-}
+}*/
 
 ?>
 

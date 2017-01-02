@@ -19,7 +19,7 @@ class ModeloV_Modelo {
 
     function getModelo_vehiculo() {
         
-        $archivo=fopen("..\Modelos_Vehiculos.txt","r");
+        $archivo=fopen("Modelos_Vehiculos.txt","r");
         
         while(!feof($archivo)) {
             $filas[]=fgets($archivo,999999);
@@ -71,8 +71,4 @@ class ModeloV_Modelo {
 
   
 }
-
-    
-    
-    
 ?>

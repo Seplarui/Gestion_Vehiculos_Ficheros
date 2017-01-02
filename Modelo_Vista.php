@@ -16,12 +16,12 @@
 <div align="center">
 <h1 align="center">Gestión de Modelos de Coches</h1>
 <hr>
-<ul><li><a href="../alta_modelo.php">Alta Modelos</a></li></ul>
+<ul><li><a href="alta_modelo.php">Alta Modelos</a></li></ul>
 
 <?php
 //error_reporting(0);
 
-require_once '../Controlador/Modelo_Controlador.php';
+require_once 'Modelo_Controlador.php';
 //echo "Esto es la matrizModelo en la vista <br>";
 //print_r($matrizModelo);
 $cadena=implode(":",$matrizModelo);

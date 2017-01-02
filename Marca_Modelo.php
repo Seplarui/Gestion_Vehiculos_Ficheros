@@ -17,7 +17,7 @@ class Marca_Modelo {
 
     function getMarca_vehiculo() {
         
-        $fichero=fopen("..\Marcas_Vehiculos.txt","r");
+        $fichero=fopen("Marcas_Vehiculos.txt","r");
        // $fichero=fopen("Marcas_Vehiculos.txt","r");
         
       

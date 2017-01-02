@@ -16,7 +16,7 @@
 <div align="center">
 <h1 align="center">Gestión de Marcas de Coches</h1>
 <hr>
-<ul><li><a href="../alta_vehiculo.php">Alta Vehículo</a></li></ul>
+<ul><li><a href="alta_vehiculo.php">Alta Vehículo</a></li></ul>
 
 <!--<table border="1">
 
@@ -24,7 +24,7 @@
 
 <?php
 error_reporting(0);
-require_once('../Controlador/Marca_Controlador.php');
+require_once('Marca_Controlador.php');
 
 $cadena=implode(":",$matrizMarca);
 $reemplazo=str_replace(";","",$cadena);

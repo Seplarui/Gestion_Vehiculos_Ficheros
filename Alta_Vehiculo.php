@@ -21,7 +21,7 @@
 
 <?php
 error_reporting(0);
-include_once('/Modelo/Marca_Modelo.php');
+include_once('Marca_Modelo.php');
 if (($_REQUEST['id']!="" && $_REQUEST['marca']!="" )) {
 
     $tmp_id = (isset($_REQUEST['id'])) ? strip_tags(trim(htmlspecialchars($_REQUEST['id'], ENT_QUOTES, "ISO-8859-1"))) : "";
