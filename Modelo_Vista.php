@@ -49,11 +49,14 @@ echo "</pre>";*/
 
 <table border="2">
     
-    <tr><td>ID MODELO</td><td>MODELO</td><td>MOTOR</td></tr>
+    <tr><td>ID MODELO</td><td>MODELO</td><td>MOTOR</td><td>ID VEHICULO</td></tr>
     
     <?php
     
     $longitud_def=count($array_def);
+    echo "<pre>";
+    print_r($array_def);
+    echo "</pre>";
     $y=0;
     //$val_longitud=$longitud*2;
     //print_r($val_longitud);
@@ -61,9 +64,9 @@ echo "</pre>";*/
     for($j=0;$j<$longitud_def;$j++) {
         if ($y<$longitud_def) {
         echo "<tr>";
-        echo "<td>".$array_def[$y]."</td><td>".$array_def[$y+1]."</td><td>".$array_def[$y+2]."</td>";
+        echo "<td>".$array_def[$y]."</td><td>".$array_def[$y+1]."</td><td>".$array_def[$y+2]."</td><td>".$array_def[$y+3]."</td>";
         echo "</tr>";
-        $y=$y+3;
+        $y=$y+4;
             
         }
     }

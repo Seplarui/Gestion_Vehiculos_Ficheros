@@ -50,7 +50,8 @@ $array_def=  array_values($cadena_array);
     
     
     <?php
-    
+    print_r($array_def);
+
     $longitud=count($array_def);
     $x=0;
     //$val_longitud=$longitud*2;

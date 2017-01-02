@@ -1,3 +1,1 @@
-; ; ; ; id1; modelo1; 1; 1; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; 3; ; ; ; 3; ; ; ; 7; ; ; ; 1; ; ; ; 3; ; ; ; 5; ; ; ; 7; ; ; ; 9; ; ; ; 1; kk; kk; 1; 1; 
-
-; ; ; ; ; ; ; ; ; ; ; ; mierda; mierda; 1; 1; 
+; ; ; ; idmodelo1; Megane; 2.0; id1; idmodelo2; Mondelo; 2.0; id2; idmodelo3; Cheroke; 3.0; id3; idmodelo4; Sport; 3.4; id4; ; ; ; ; idmodelo9; Cinquetento; 1.4; id7; 
